@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>RSVP-SIS</title>
+</head>
+
+<body>
+	<BR>
+	<H1>RSVP - Reference System Virtual Platform</H1>
+    <P>
+      Modern configurable System-on-Chip and Field Programmable Gate Array devices,
+	  are a blank slate for designers to draw on. 
+	  However, most systems require several common resources and peripherals in order
+	  to present the user with a usable "System Platform" upon which to base an application.
+	<P>
+     The initial Reference System Virtual Platforms are designed to provide useful
+	 baseline systems with commonly required resources and peripherals, as well as a
+	 vendor neutral, portable API to access and control those resources and peripherals.
+    <P>
+	 While most semiconductor vendors will provide a baseline "driver" library for their parts,
+	 or a configuation tool within their IDE (Integrated Development Environment) to
+     select and configure IP blocks, these tend to be unique, vendor specific, and/or
+	 proprietary in nature. It can often take a significant amount of work to port an
+	 embedded application from one SOC/Microprocessor family to another.
+	<P>
+	 RSVP is intended to provide a vendor neutral, and device/architecture agnostic
+	 set of resources, peripherals, and Application Programming Interfaces (API's)
+	 with which to access them. 
+	<P>
+     For example, a typical microprocessor, or microprocessor based SOC system
+	 <BR>might contain the following resources and peripherals :
+	 <PRE>
+     System Platform Components:
+     CPU_1  : 8051, ARM Cortex-M0/M3
+     WDT_1  : System Watchdog Timer
+     WDT_2  : User Watchdog Timer
+     CTC_1  : System Timer (SysTick)
+     CTC_2  : Sleep Timer (SleepTimer)
+     CTC_3  : User Timer (UserTimer)
+     RTC_1  : Real Time Clock (RTC)
+  
+     Communications Interface Components:
+     USB_1  : USB UART component
+  
+     UART_1 : UART Full Duplex
+     UART_2 : UART Full Duplex
+  
+     I2C_1  : Slave I2C
+     I2C_1  : Master I2C
+  
+     SPI_1  : Slave SPI
+     SPI_2  : Master SPI
+  
+     Analog Interface Components :
+     DAC_1  : Digital to Analog Converter (8bit @50 Ksmp/sec)
+     ADC_1  : Analog to Digital COnverter (8bit @50 Ksmp/sec)
+  
+     User Interface Components:
+     DSW_1  : Digital Switch/GPIO Input
+     LED_1  : Digital LED/GPIO Output
+     LCD_1  : Character Display (16 char x 2 char)
+    </PRE>
+	<P>
+	 By providing a common set of resources and API's, embedded applications can be ported more rapidly,
+	 with less code modification.
+	<P>
+	<H2>Examples</H2>
+     If you are interested in a taking a look at the initial 
+	 <BR>“Reference System Virtual Platform” series that we're working on, 
+	 <BR>the "Typical" Platform is coming here soon.</a>
+     <P>
+	 <BR><BR>
+</body>
+</html>
