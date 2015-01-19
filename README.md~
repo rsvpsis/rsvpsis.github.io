@@ -1,9 +1,9 @@
-rsvpsis.github.io
+moxondesign.github.io
 =====================
 
-RSVP-SIS Organization Website
+Moxon Design Organization Website
 
-This is the source of the [rsvpsis website] (http://rsvpsis.com).  
+This is the source of the moxondesign website [http://moxon.com/](http://moxon.com).  
 The only interesting branch in this repo will be the *source* branch;
 as GitHub expects the generated website to live in the *master* branch.
 
